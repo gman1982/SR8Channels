@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Alinco": {
+      "commandName": "Project",
+      "commandLineArgs": "import C:\\temp\\C.sr8 C:\\temp\\c2.csv c:\\temp\\D.sr8"
+    }
+  }
+}
