@@ -136,6 +136,8 @@ namespace Alinco
                         channel.rxFrequency = Int32.Parse(columns[10]);
                         channel.channelName = columns[11];
                         channel.txFrequency = Int32.Parse(columns[12]);
+
+                        this.channelList.Add(channel);
                     }
                     catch (Exception ex)
                     {
